@@ -45,25 +45,23 @@ video {
 
 .fixed{
   position: fixed;
-  background-color: blue;
-  top: 85%;
   z-index: 1;
   width: 100vw;
-}
-
-.textContainer{
-  /* width: 72vw; */
-  /* width: 100%; */
-  background-color: red;
-  /* margin: 0 auto; */
-}
-
-.row{
-
   
 }
 
-.col{ 
-  background-color: yellow;
-  display: inline-block;
+#fixed1{
+  top: 10%;
+  /* background-color: red; */
+  text-align: right;
+  padding-right: 13%;
+}
+
+#fixed2{
+  top: 85%;
+}
+
+.homeText{
+  /* background-color: red; */
+  margin-bottom: auto;
 }

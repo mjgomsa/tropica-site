@@ -1,8 +1,10 @@
 import React, { useRef, useEffect, useState } from "react";
 import { useScroll, useTransform } from "framer-motion";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Row, Col, Container } from "react-bootstrap";
 import tropicaVidLandscape from "../assets/TropicaFastLandscape.mp4";
 import tropicaVidPortrait from "../assets/TropicaFastPortrait.mp4"; // Update file path
+import generaImg from "../assets/Logo-Genera-Simple-tropica.png";
 
 export const Home = () => {
   const [isDesktop, setIsDesktop] = useState(false);
@@ -72,12 +74,36 @@ export const Home = () => {
         alignItems: "center",
       }}
     >
-      <div className="fixed">
-        <Container fluid className="textContainer">
+      <div className="fixed" id="fixed1">
+        <Container fluid>
           <Row>
-            <Col>1 of 3</Col>
-            <Col xs={6}>2 of 3 (wider)</Col>
-            <Col>3 of 3</Col>
+            <Col>
+              <img
+                src={generaImg}
+                alt={`Genera Logo`}
+                style={{ cursor: "pointer", width: "191px" }}
+              ></img>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className="fixed" id="fixed2">
+        <Container fluid>
+          <Row className="justify-content-md-center">
+            <Col xs lg="3">
+              <p className="bold homeText">
+                <br></br>Julio 2026
+              </p>
+            </Col>
+            <Col xs md="auto">
+              <h2 className="homeText">La sensualidad de la naturaleza</h2>
+            </Col>
+            <Col xs lg="3">
+              <p className="light homeText" style={{ textAlign: "right" }}>
+                Residencias de lujo con 3 habitaciones <br></br>en Nunciatura,
+                San José, Costa Rica
+              </p>
+            </Col>
           </Row>
         </Container>
       </div>
