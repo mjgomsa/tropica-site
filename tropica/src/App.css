@@ -1,0 +1,69 @@
+h2{
+  color: #7A2B16;
+  text-align: center;
+  font-family: "General Sans Variable";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.bold{
+  color: #7A2B16;
+  font-family: "General Sans Variable";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.light{
+  color: #7A2B16;
+  font-family: "General Sans Variable";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.mainDiv {
+  height: calc(var(--video-height) * 2); /* Adjust multiplier as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9F2EB !important;
+  /* background-color: red !important; */
+}
+
+video {
+  width: 70%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fixed{
+  position: fixed;
+  background-color: blue;
+  top: 85%;
+  z-index: 1;
+  width: 100vw;
+}
+
+.textContainer{
+  /* width: 72vw; */
+  /* width: 100%; */
+  background-color: red;
+  /* margin: 0 auto; */
+}
+
+.row{
+
+  
+}
+
+.col{ 
+  background-color: yellow;
+  display: inline-block;
+}
