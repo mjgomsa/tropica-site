@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/tropica-site/static/css/main.b2dc0956.css",
-    "main.js": "/tropica-site/static/js/main.2c5a88f2.js",
+    "main.js": "/tropica-site/static/js/main.da1b9e39.js",
     "static/js/453.f00748c0.chunk.js": "/tropica-site/static/js/453.f00748c0.chunk.js",
-    "static/media/TropicaFastLandscape.mp4": "/tropica-site/static/media/TropicaFastLandscape.751d9e34e76598fc775a.mp4",
+    "static/media/TropicaFastLandscape.mp4": "/tropica-site/static/media/TropicaFastLandscape.279f58287a84b796a76f.mp4",
     "static/media/TropicaFastPortrait.mp4": "/tropica-site/static/media/TropicaFastPortrait.c61febc928a7b5408d2c.mp4",
     "static/media/Logo-Genera-Simple-tropica.png": "/tropica-site/static/media/Logo-Genera-Simple-tropica.6c905d28b7ab629f96b3.png",
     "index.html": "/tropica-site/index.html",
     "main.b2dc0956.css.map": "/tropica-site/static/css/main.b2dc0956.css.map",
-    "main.2c5a88f2.js.map": "/tropica-site/static/js/main.2c5a88f2.js.map",
+    "main.da1b9e39.js.map": "/tropica-site/static/js/main.da1b9e39.js.map",
     "453.f00748c0.chunk.js.map": "/tropica-site/static/js/453.f00748c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2dc0956.css",
-    "static/js/main.2c5a88f2.js"
+    "static/js/main.da1b9e39.js"
   ]
 }
